@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shuvopme/your-repo-name/main/banner.png" alt="Gensyn Node Run - Customed By Shuvo" width="100%" />
+  <img src="https://raw.githubusercontent.com/Shuvopme/your-repo-name/main/banner.png" alt="Gensyn Node Run - Customed By Shuvo" width="100%" /> />
 </p>
 
 <h1 align="center">🚀 Gensyn Node Run - Customed By Shuvo</h1>
