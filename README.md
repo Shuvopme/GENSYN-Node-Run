@@ -42,11 +42,3 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 swapon --show && free -h
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-sudo apt update && sudo apt upgrade -y
-sudo apt install curl wget git build-essential python3 python3-venv python3-pip screen lsof -y
-
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update && sudo apt install yarn -y
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install python3 git screen
