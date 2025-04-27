@@ -43,7 +43,9 @@ sudo swapon /swapfile
 swapon --show && free -h
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
-2. Update Packages and Install Dependencies
+---
+
+### 2. Update Packages and Install Dependencies
 
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl wget git build-essential python3 python3-venv python3-pip screen lsof -y
